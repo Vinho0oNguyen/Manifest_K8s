@@ -1,0 +1,27 @@
+image:
+  repository: docker.io/vinho0onguyen/my_api
+  tag: v1
+  pullPolicy: Always
+  pullSecret: harbor-registry
+
+service:
+  applicationName: notice-service
+  replicas: 3
+  port: 5000
+  typePort: NodePort
+
+
+limit:
+  cpu: 500m
+  memory: 512Mi
+request:
+  cpu: 200m
+  memory: 512Mi
+
+
+
+strategy:
+  type: RollingUpdate
+  maxUnavailable: 0
+  maxSurge: 25%
+
