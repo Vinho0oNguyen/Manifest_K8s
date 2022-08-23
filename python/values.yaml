@@ -6,7 +6,7 @@ image:
 
 service:
   applicationName: notice-service
-  replicas: 5
+  replicas: 2
   port: 5000
   typePort: NodePort
 
