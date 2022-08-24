@@ -1,6 +1,6 @@
 image:
   repository: docker.io/vinho0onguyen/my-api
-  tag: test2-621431733
+  tag: test2-621434232
   pullPolicy: Always
   pullSecret: harbor-registry
 
