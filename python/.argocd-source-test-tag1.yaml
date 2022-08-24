@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: docker.io/vinho0onguyen/my-api
+    forcestring: true
+  - name: image.tag
+    value: test-621428633
+    forcestring: true
