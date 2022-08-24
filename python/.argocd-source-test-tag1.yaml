@@ -4,5 +4,5 @@ helm:
     value: docker.io/vinho0onguyen/my-api
     forcestring: true
   - name: image.tag
-    value: test1-621508233
+    value: test1-621512022
     forcestring: true
